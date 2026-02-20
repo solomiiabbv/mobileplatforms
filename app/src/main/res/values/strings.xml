@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Project1</string>
+
+    <!-- Кнопки MainActivity -->
+    <string name="next_activity">LifeCycle</string>
+    <string name="profile_activity">Profile</string>
+    <string name="products_activity">Products</string>
+    <string name="close_button">Close</string>
+
+    <!-- Кнопки LifeCycleActivity -->
+    <string name="finish_button">Finish</string>
+</resources>
+
