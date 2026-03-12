@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -17,13 +16,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="first in line"/>
+            android:text="@string/first_in_line"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="second in line"/>
+            android:text="@string/second_in_line"/>
 
     </LinearLayout>
 
@@ -31,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/green"
-        android:text="Second Activity"
+        android:text="@string/second_activity_title"
         android:textSize="48sp"
         android:layout_gravity="center"/>
 
@@ -48,6 +47,8 @@
         android:id="@+id/ivCat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/cat" />
+        android:adjustViewBounds="true"
+        android:src="@drawable/images"
+        android:contentDescription="@string/cat_image_desc" />
 
 </LinearLayout>

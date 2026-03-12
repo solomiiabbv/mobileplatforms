@@ -1,13 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Project1</string>
-
-    <!-- Кнопки MainActivity -->
-    <string name="next_activity">LifeCycle</string>
-    <string name="profile_activity">Profile</string>
-    <string name="products_activity">Products</string>
-    <string name="close_button">Close</string>
-
-    <!-- Кнопки LifeCycleActivity -->
-    <string name="finish_button">Finish</string>
+    <string name="app_name">ProjectOne</string>
+    <string name="first_in_line">first in line</string>
+    <string name="second_in_line">second in line</string>
+    <string name="second_activity_title">Second Activity</string>
+    <string name="cat_image_desc">Cat picture</string>
 </resources>
 
